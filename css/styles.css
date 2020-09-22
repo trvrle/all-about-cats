@@ -6,22 +6,47 @@ body {
   margin: 0;
 }
 
-#welcome {
-  height: 500px;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-
 .nav-item {
   font-size: 16px;
   color: #cccccc;
   text-decoration: none;
-  margin: 20px 40px 20px 40px;
+  margin: 15px 40px 15px 40px;
 }
 
 .nav-item:hover {
   color: white;
+}
+
+nav {
+  background-color: #333333;
+  display: flex;
+  justify-content: center;
+}
+
+#free-shipping {
+  background-color: #cccccc;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+#welcome {
+  height: 700px;
+  background-image: url(../img/peeking-cat.jpg);
+  background-size: contain;
+  width: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+#the-cat-shop {
+  color: #cccccc;
+  font-variant: small-caps;
+  font-size: 10em;
 }
 
 .button {
@@ -29,7 +54,6 @@ body {
   color: white;
   border: 1px solid blue;
   font-size: 16px;
-  margin: 250px;
   padding: 10px;
   text-decoration: none;
   border-radius: 8px;
@@ -40,10 +64,4 @@ body {
 .button:hover {
   background-color: white;
   color: blue;
-}
-
-nav {
-  background-color: #333333;
-  display: flex;
-  justify-content: center;
 }
