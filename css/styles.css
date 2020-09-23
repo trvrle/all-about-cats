@@ -33,7 +33,7 @@ nav {
 }
 
 #welcome {
-  height: 700px;
+  height: calc(0.3684 * 100vw);
   background-image: url(../img/peeking-cat.jpg);
   background-size: contain;
   width: 100%;
