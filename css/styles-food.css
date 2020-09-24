@@ -31,9 +31,3 @@ nav {
   justify-content: center;
   padding: 10px;
 }
-
-#banner {
-  background: url(../img/cat-eating.jpg) no-repeat;
-  background-size: contain;
-  height: 500px;
-}
