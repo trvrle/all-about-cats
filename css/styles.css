@@ -33,15 +33,6 @@ nav {
 }
 
 #banner {
-  height: 500px;
-  background-image: url(../img/cat-peeking.jpg);
-  background-size: contain;
-  width: 100%;
-  background-repeat: no-repeat;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   margin-bottom: 20px;
 }
 
