@@ -6,6 +6,7 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
+  background-color: #f2f2f2;
 }
 
 .nav-item {
@@ -26,7 +27,7 @@ nav {
 }
 
 #free-shipping {
-  background-color: #cccccc;
+  background-color: #f2f2f2;
   display: flex;
   justify-content: center;
   padding: 10px;
@@ -44,25 +45,51 @@ nav {
   align-items: center;
 }
 
-#the-cat-shop {
+#the-cat-shop h1 {
   color: white;
   font-variant: small-caps;
-  font-size: 10em;
+  font-size: 18em;
+  font-family: Brush Script MT, cursive;
 }
 
-.button {
-  background-color: blue;
-  color: white;
-  border: 1px solid blue;
-  font-size: 16px;
-  padding: 10px;
-  text-decoration: none;
-  border-radius: 8px;
-  cursor: pointer;
-  transition-duration: 0.75s;
+#content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.button:hover {
+.featured-product {
+  margin: 20px 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-color: white;
+}
+
+.featured-product h1 {
+  margin-left: 40px;
+}
+
+.product-display {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.product-display-item {
+  max-width: 400px;
+  max-height: 400px;
+}
+
+.see-all {
+  display: flex;
+  margin: 20px 40px;
+  flex-direction: row-reverse;
+  font-size: 20px;
+  text-decoration: none;
   color: blue;
+  font-weight: bold;
+}
+
+.see-all:hover {
+  text-decoration: underline;
 }
