@@ -49,38 +49,43 @@ nav {
 
 #content {
   width: 100%;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .featured-product {
-  height: auto;
   margin: 20px 50px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-color: white;
+  max-width: 85%;
+  height: auto;
 }
 
 .featured-product h1 {
   margin-left: 40px;
+  font-size: 2em;
 }
 
 .product-display {
+  max-width: 100%;
+  height: auto;
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
 .product-display-item {
-  max-width: 400px;
-  max-height: 400px;
+  max-width: 25%;
+  height: auto;
 }
 
 .see-all {
   display: flex;
   margin: 20px 40px;
   flex-direction: row-reverse;
-  font-size: 20px;
+  font-size: 1.25em;
   text-decoration: none;
   color: blue;
   font-weight: bold;
