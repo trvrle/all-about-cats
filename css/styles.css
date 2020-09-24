@@ -32,9 +32,9 @@ nav {
   padding: 10px;
 }
 
-#welcome {
-  height: calc(0.3684 * 100vw);
-  background-image: url(../img/peeking-cat.jpg);
+#banner {
+  height: 500px;
+  background-image: url(../img/cat-peeking.jpg);
   background-size: contain;
   width: 100%;
   background-repeat: no-repeat;
@@ -42,6 +42,7 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 #the-cat-shop h1 {
