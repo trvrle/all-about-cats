@@ -65,18 +65,19 @@ nav {
   max-width: 100%;
   height: auto;
   display: flex;
-  flex-direction: row;
+  flex-flow: row wrap;
   align-items: center;
 }
 
 .product-display-item {
   max-width: 25%;
   height: auto;
+  padding-bottom: 20px;
 }
 
 .see-all {
   display: flex;
-  margin: 20px 40px;
+  margin: 0 40px 40px 20px;
   flex-direction: row-reverse;
   font-size: 1.25em;
   text-decoration: none;
