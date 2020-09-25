@@ -28,16 +28,18 @@ nav {
   justify-content: center;
 }
 
-#page-banner {
-  max-width: 100%;
-  height: auto;
-}
-
 #free-shipping {
   display: flex;
   justify-content: center;
   padding: 10px;
 }
+
+#page-banner {
+  max-width: 100%;
+  height: auto;
+}
+
+
 
 #footer {
   display: flex;
