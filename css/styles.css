@@ -48,17 +48,22 @@ nav {
   align-items: center;
 }
 
-.featured-product {
-  margin: 20px 50px;
+.card {
+  margin: 0 50px 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-color: white;
   max-width: 85%;
   height: auto;
 }
 
-.featured-product h1 {
-  margin-left: 40px;
+.card h1 {
+  margin-left: 30px;
   font-size: 2em;
+}
+
+.card h2 {
+  margin-left: 30px;
+  font-size: 1.5em;
 }
 
 .product-display {
@@ -77,7 +82,7 @@ nav {
 
 .see-all {
   display: flex;
-  margin: 0 40px 40px 20px;
+  margin: 0 40px 20px 40px;
   flex-direction: row-reverse;
   font-size: 1.25em;
   text-decoration: none;
@@ -87,6 +92,37 @@ nav {
 
 .see-all:hover {
   text-decoration: underline;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 30px 30px;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+#locations {
+  list-style: none;
+  padding-left: 0;
+  margin: 0 30px 30px;
+}
+
+.city {
+  font-weight: bold;
+  list-style: none;
+  padding-left: 0;
+}
+
+.address {
+  list-style-type: disc;
 }
 
 #footer {
